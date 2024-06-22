@@ -1,0 +1,142 @@
+<html>
+
+<head>
+    <script src="https://kit.fontawesome.com/be93b6a1da.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+</body>
+<nav class="navbar navbar-expand-lg bg-body-tertiary bg-1E202B color-white py-4">
+    <div class="container d-flex justify-content-between align-items-center py-3">
+        <a class="branding text-decoration-none" href="">
+            <div class="d-flex flex-row ">
+                <img src="https://routeweather.netlify.app/images/logo@2x.png" alt="" class="logo" width="64"
+                    height="38">
+                <div class="ms-2">
+                    <div class="logo-type">
+                        <h1 class="site-title color-white h6 mb-0 pb-1">Weather</h1>
+                        <small class="site-description color-white fs-7 color-bfc1c8">tagline goes here</small>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <button class="navbar-toggler hover-change " type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon color-white bg-white"></span>
+        </button>
+        <div class="collapse navbar-collapse end-nav flex  flex-grow-0" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0">
+                <li class="nav-item p-2 fs-6 no-padding ">
+                    <div class="hover-change px-3 py-0 rounder-corder d-flex justify-content-center align-items-center">
+                        <a class="hover-change-2 nav-link active color-white py-1" aria-current="page" href="#">Home</a>
+                    </div>
+                </li>
+                <li class="nav-item p-2 fs-6">
+                    <div class="hover-change px-3 py-0 rounder-corder d-flex justify-content-center align-items-center">
+                        <a class=" hover-change-2 nav-link active color-white py-1" aria-current="page"
+                            href="#">news</a>
+                    </div>
+                </li>
+                <li class="nav-item p-2 fs-6">
+                    <div class="hover-change px-3 py-0 rounder-corder d-flex justify-content-center align-items-center">
+                        <a class="hover-change-2 nav-link active color-white py-1" aria-current="page" href="#">Live
+                            cameras</a>
+                    </div>
+                </li>
+                <li class="nav-item p-2 fs-6">
+                    <div class="hover-change px-3 py-0 rounder-corder d-flex justify-content-center align-items-center">
+                        <a class=" hover-change-2 nav-link active color-white py-1" aria-current="page"
+                            href="#">Photos</a>
+                    </div>
+                </li>
+                <li class="nav-item p-2 fs-6">
+                    <div class="hover-change px-3 py-0 rounder-corder d-flex justify-content-center align-items-center">
+                        <a class=" hover-change-2 nav-link active color-white py-1" aria-current="page"
+                            href="#">Contact</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</nav>
+<div class="hero d-flex justify-content-center align-items-start w-100">
+    <div class="container mt-4  d-flex justify-content-center align-items-center position-relative">
+        <div class="find-location d-flex justify-content-center align-items-center mt-5 w-100 ">
+            <input type="text" placeholder="Find your location..." id="search" class="">
+            <button class="find-button ">Find</button>
+        </div>
+    </div>
+</div>
+<div class="w-100 mb-5">
+    <div class="container weather  d-flex justify-content-center align-items-start">
+        <div class="round row w-90">
+            <div
+                class="col-12 col-md-4  color-bfc1c8 d-flex justify-content-center align-items-center flex-column p-0 overflow-hidden">
+                <div class="w-100 d-flex justify-content-between align-items-center bg-2D303D top color-bfc1c8">
+                    <p class=" bg-2D303D p-0 m-0 ms-2" id="day111">firday</p>
+                    <p class=" bg-2D303D p-0 m-0 me-2" id="day1nums">21 june</p>
+                </div>
+                <div class="bg-323544 w-100 color-white pb-3">
+                    <p class="color-bfc1c8 ms-3 mt-4 fs-5" id="city">Cairo</p>
+                    <p class="fw-bolder fs-0 color-white ms-3 mb-0" id="temp">40<sup>o</sup>C</p>
+                    <img src="images/113.webp" alt="conditiom" width="90" id="icon">
+                    <p class="ms-3 color-009ad8" id="conditiontext">Sunny</p>
+                    <span id="humidity"><img class="scale-5" src="images/icon-umberella@2x.png" alt="" >20%</span>
+                    <span id="wind"><img class="scale-5" src="images/icon-wind@2x.png" alt="" >20km/h</span>
+                    <span id="windir"><img class="scale-5" src="images/icon-compass@2x.png" alt="" >West</span>
+                </div>
+            </div>
+            <div class="col-12 col-md-4  text-center p-0 bg-262936 overflow-hidden">
+
+                <p class="top bg-222530 color-bfc1c8" id="day222">saturday</p>
+                <div class="bg-262936">
+                    <img src="https://cdn.weatherapi.com/weather/64x64/day/113.png" alt="" width="48" class="mt-5" id="nextconditionicon11">
+                    <div class="bg-262936 color-white fs-4 mt-3 fw-bolder" id="nexttempmax11">40<sup>o</sup>C</div>
+                    <div class="color-bfc1c8" id="nexttempmin11">28<sup>o</sup>C</div>
+                    <p class="ms-3 color-009ad8 mt-4" id="nextconditiontext11">sunny</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 bg-323544 text-center color-bfc1c8 p-0 overflow-hidden">
+                <p class="top color-bfc1c8 bg-2D303D" id="day333">sunday</p>
+                <div class="bg-323544">
+                    <img src="https://cdn.weatherapi.com/weather/64x64/day/113.png" alt="" width="48" class="mt-5" id="nextconditionicon22">
+                    <div class="bg-323544 color-white fs-4 mt-3 fw-bolder" id="nexttempmax22">42<sup>o</sup>C</div>
+                    <div id="nexttempmin22">28<sup>o</sup>C</div>
+                    <p class="ms-3 color-009ad8 mt-3" id="nextconditiontext22">Cloudy</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div>
+    <div class="w-100 bg-262936">
+        <div class="mt-5 bg-262936 pb-5 container">
+            <div class="d-flex justify-content-center align-items-center media-2">
+                <div class="find-location d-flex justify-content-between align-items-center mt-5 w-100 position-relative media-4">
+                    <input type="text" placeholder="Enter your email to subscribe..." id="sub" class="ms-5">
+                    <button class="sub-button fs-6">Subscribe</button>
+                </div>
+                <div class="d-flex justify-content-center align-items-center gap-2 mt-5 ms-5 no-ml align-self-start-media me-5 pe-5">
+                    <div class="d-flex justify-content-center align-items-center small-square hover-5 bg-1e202b rounded-circle p-35 bg-hover"><i class="fa fa-facebook  color-009ad8 scale-12   "></i></div>
+                    <div class="d-flex justify-content-center align-items-center small-square hover-5 bg-1e202b rounded-circle p-35  bg-hover"><i class="fa fa-twitter  color-009ad8 scale-12   "></i></div>
+                    <div class="d-flex justify-content-center align-items-center small-square hover-5 bg-1e202b rounded-circle p-35 bg-hover"><i class="fa fa-google-plus  color-009ad8 scale-12   "></i></div>
+                    <div class="d-flex justify-content-center align-items-center small-square hover-5 bg-1e202b rounded-circle p-35 bg-hover"><i class="fa fa-pinterest  color-009ad8 scale-12 "></i></div>
+                </div>
+            </div>
+            <p class="color-white ps-5 ms-3 mt-4 color-bfc1c8 smaller-left ">
+                Copyright 2014 Company name. Designed by Themezy. All rights reserved
+            </p>
+        </div>
+    </div>
+    <div></div>
+</div>
+
+<script src="bootstrap.bundle.js"></script>
+<script src="index.js"></script>
+
+</html>

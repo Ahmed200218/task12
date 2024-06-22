@@ -1,0 +1,195 @@
+body{
+background-color: #1E202B;
+}
+
+.bg-1E202B {
+    background-color: #1E202B !important;
+}
+
+.color-white {
+    color: white !important;
+}
+
+.fs-7 {
+    font-size: 0.7rem;
+}
+
+.color-bfc1c8 {
+    color: #bfc1c8 !important;
+}
+
+.rounder-corder {
+    border-radius: 20px;
+    border: 2px solid transparent;
+    transition: border-color 200ms;
+}
+
+.hover-change {
+    border: 2px solid transparent !important;
+}
+
+.hover-change-2 {
+    transition: color 200ms;
+
+}
+
+.hover-change:hover {
+    border: 2px solid #009ad8;
+    border-color: #009ad8 !important;
+}
+
+.hover-change:hover .hover-change-2 {
+    color: #009ad8 !important;
+}
+
+.hero {
+    background-image: url(https://routeweather.netlify.app/images/banner.png);
+    height: 352px;
+}
+
+#search {
+    padding: 15px;
+    width: 90%;
+    border-radius: 50px;
+    background-color: #1E202B;
+    color: white;
+}
+
+.find-button {
+    background-color: #009AD8;
+    color: white;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    border-radius: 50px;
+    position: absolute;
+    right: 6.7%;
+    border: 0px solid transparent;
+}
+
+.weather{
+    margin-top: -150px;
+}
+.w-90{
+    width: 90%;
+}
+.top{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.bg-2D303D{
+background-color: #2D303D;
+}
+.color-bfc1c8{
+   color:  #bfc1c8;
+}
+.bg-222530{
+    background-color: #222530;
+}
+.bg-323544{
+    background-color: #323544;
+}
+.bg-262936{
+    background-color: #262936;
+}
+.fs-0{
+    font-size: 5rem;
+}
+.scale-5{
+    scale:0.5
+}
+.scale-7{
+    scale:0.7
+}
+.color-009ad8{
+    color:#009ad8 ;
+}
+.sub-button{
+    background-color: #009AD8;
+    color: white;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    border-radius: 50px;
+    position: absolute;
+    right: 31.5%;
+    border: 0px solid transparent;
+}
+#sub {
+    padding: 15px;
+    width: 65%;
+    border-radius: 50px;
+    background-color: #1E202B;
+    color: white;
+}
+.scale-12{
+    scale:1.2;
+}
+.small-square{
+    width: 30px !important;
+    height: 30px !important;
+}
+.hover-5{
+}
+.hover-5:hover{
+    background-color:#009AD8 ;
+}
+.hover-5:hover .color-009ad8{
+color: white !important;
+}
+.p-35{
+padding: 20px !important;
+}
+.bg-hover{
+    transition: background-color 200ms;
+}
+.bg-hover:hover{
+    background-color: #009AD8 !important;
+}
+
+
+
+
+
+@media (max-width: 992px) { 
+#sub{
+    width: 90% !important;
+}
+.sub-button{
+    right: 8% !important;
+}
+.media-2{
+    flex-direction: column !important;
+}
+#sub{
+    margin: 0px !important;
+}
+.no-ml{
+    margin-left: 0px !important;
+}
+.media-4{
+    justify-content: center !important;
+}
+.smaller-left{
+    margin-left: 10px !important;
+    padding-left: 10px !important;
+    margin-top: 5px !important;
+}
+.align-self-start-media{
+    align-self: start;
+    margin-left: 30px !important;
+}
+.weather{
+    padding: 0px;
+}
+}
+
+
+
+@media (max-width: 600px) { 
+    .find-button{
+right:8.5%
+    }
+}
